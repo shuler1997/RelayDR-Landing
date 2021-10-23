@@ -17,6 +17,7 @@ import {
   Clients,
   Cta,
   Pricing,
+  Team,
 } from 'packages/themes/src/WebApp/containers';
 
 import preview from 'packages/themes/src/WebApp/assets/preview.png';
@@ -41,6 +42,7 @@ const WebApp = ({ url }) => (
     <Features name="problem" />
     <Screenshots name="solution" />
     <About name="about" />
+    <Team name="team" />
     <Clients name="contact" />
     {/* <Pricing name="pricing" /> */}
     {/* <Cta /> */}

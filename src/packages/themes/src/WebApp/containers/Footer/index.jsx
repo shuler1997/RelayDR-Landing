@@ -175,7 +175,8 @@ Footer.defaultProps = {
       _: 4,
       sm: 5,
     },
-    backgroundColor: 'gray.6',
+    backgroundColor: 'gray.7',
+    height: 500,
   },
   GridProps: {
     gridTemplateColumns: {

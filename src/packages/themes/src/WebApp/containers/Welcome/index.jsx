@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Parallax } from 'react-scroll-parallax';
+import {Link} from 'react-scroll'
 
 import Box from 'packages/common/src/components/Box';
 import Container from 'packages/common/src/components/Container';
@@ -50,7 +51,7 @@ const Welcome = ({
           <Typography {...TextProps}>{text}</Typography>
           <Box {...ActionButtonsProps}>
             {actions.map(({ label, ...props }, key) => (
-              <Button {...props} key={key}>
+              <Button {...props} as={Link} key={key}>
                 {label}
               </Button>
             ))}

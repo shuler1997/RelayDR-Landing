@@ -6,6 +6,7 @@ import Container from 'packages/common/src/components/Container';
 import Typography from 'packages/common/src/components/Typography';
 
 import data from '../../data';
+import { alignItems, justifyContent } from 'styled-system';
 
 const Copyright = ({ copyright, WrapperProps, TextProps }) => (
   <Box {...WrapperProps}>
@@ -42,6 +43,10 @@ Copyright.defaultProps = {
   WrapperProps: {
     py: 4,
     backgroundColor: 'gray.5',
+    height: 150,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 };
 
